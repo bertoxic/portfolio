@@ -75,8 +75,8 @@ class _HomePageState extends State<HomePage> {
                 child: Container( padding: EdgeInsets.only(right: screenSize.width*0.01,),
                   child: SingleChildScrollView( padding: EdgeInsets.only(right: screenSize.width*0.05),
                     child: Column(
-                        children: [screenSize.width>=800?
-                          PageScrollContent(screenSize: screenSize):MobileScrollContent(),
+                        children: [
+                          PageScrollContent(screenSize: screenSize),
 
                         ],
                       ),

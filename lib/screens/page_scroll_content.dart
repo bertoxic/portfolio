@@ -30,9 +30,9 @@ class PageScrollContent extends StatelessWidget {
               child:Center(
                 child: Column(children: [
                   SizedBox(height: screenSize.width*0.04,),
-                  Text('Know Love',style: TextStyle(fontSize: 36,color: Colors.white),),
-                  SizedBox(height: 20,),
-                  SmallText( size: 24,
+                  Text('Know Me',style: TextStyle(fontSize: 36,color: Colors.white),),
+                  SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
+                  SmallText( size: screenSize.width>=800?24:16,
                     text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '
                         'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am '
                         'innovative and able to produce mobile application from concept to launch,combining both my skills in UI/UX design for better web and mobile experience for the users',
@@ -193,8 +193,8 @@ class PageScrollContent extends StatelessWidget {
             children: [ Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
                 child:Column(children: [
                   Text('My Stack',style: TextStyle(fontSize: 36,color: Colors.white),),
-                  SizedBox(width: screenSize.width*0.04,child: Divider(thickness: 0.5,color: Colors.white,),),
-                  SizedBox(height: 20,),
+                  SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
+              SizedBox(height: 20,),
                   SmallText( size: 20,
                     text:'After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills '
                         'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',
