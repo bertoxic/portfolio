@@ -62,80 +62,45 @@ class MobileScrollContent extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: screenSize.width*0.3,child: Divider(thickness: 1,color: Colors.grey.withOpacity(0.5),),),
-                Container(
-                  child:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
+                  child: Column( crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                    Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
-                    SizedBox(height: screenSize.width*0.008,),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Name:  ',size: 14,),
-                        SmallText(text: 'Oraezu Chukwuemeka Albert',size: 14,),
-                      ],
-                    ),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Sex:  ',size: 14,),
-                        SmallText(text: '    Male',size: 14,),
-                      ],
-                    ),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Roles:  ',size: 14,),
-                        SmallText(text: ' Web Designer, Programmer, Illustrator',size: 14,),
-                      ],
-                    ),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Race:  ',size: 14,),
-                        SmallText(text: '  Earth',size: 14,),
-                      ],
-                    ),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Brand:  ',size: 14,),
-                        SmallText(text: 'BerTex ',size: 14,),
-                      ],
-                    ),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SmallText(text: 'Email:  ',size: 14,),
-                        SmallText(text: ' Dirusalbert@gmail.com',size: 14,),
-                      ],
-                    ),
-                    SizedBox(height: screenSize.width*0.05,),
-                    Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        GestureDetector(  onTap: (){
-                          launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
-                        },
-                          child: Container( padding: EdgeInsets.all(15),
-                              decoration: (BoxDecoration(color: Colors.grey.shade200,
-                              borderRadius:BorderRadius.circular(10))),
-                              child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
-                        )
-                      ],
-                    ),
-
-
-                  ],),
-                ),
-                SizedBox(width: screenSize.width*0.00,),
-                Expanded(
-                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                    child: Expanded(
-                      child: Row(
+                      Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
+                      SizedBox(height: screenSize.width*0.005,),
+                      SmallText(text: 'Name: Oraezu Albert',size: 14,),
+                      SmallText(text: 'Gender: Male',size: 14,),
+                      SmallText(text: 'Roles: Web Designer, Programmer, Illustrator',size: 14,),
+                      SmallText(text: 'Race: Earth',size: 14,),
+                      SmallText(text: 'Email:Dirusalbert@gmail.com',size: 14,),
+                      SizedBox(height: screenSize.width*0.01,),
+                      Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset(
-                            'assets/images/face.jpg',
-                            fit: BoxFit.cover,
-                          ),
-                      SizedBox(height: screenSize.width*0.3,)
+                          GestureDetector(  onTap: (){
+                            launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
+                          },
+                            child: Container( padding: EdgeInsets.all(15),
+                              decoration: (BoxDecoration(color: Colors.grey.shade200,
+                                  borderRadius:BorderRadius.circular(10))),
+                              child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
+                          )
                         ],
                       ),
-                    ),
-                  ),
+
+                    ],),
                 ),
+                SizedBox(width: screenSize.width*0.01,),
+                Row( mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
+                      width: screenSize.width*0.4, height: screenSize.height*0.3,
+                      child: Image.asset(
+                        'assets/images/face.jpg',
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ],
+                ),
+
                 SizedBox(height: screenSize.height*0.2,child: Divider(thickness: 1,color: Colors.grey.withOpacity(0.5),),),
                 Center(child:
                 Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
