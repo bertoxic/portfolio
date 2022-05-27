@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
               //       child: Text('hello click me'),))
 
             ],
-          ):SingleChildScrollView( padding:EdgeInsets.symmetric(horizontal: screenSize.width*0.05), child: MobileScrollContent(screenSize: screenSize,)),
+          ):SingleChildScrollView( padding:EdgeInsets.symmetric(horizontal: screenSize.width*0.05), child: MobileScrollContent()),
 
         ),
 
