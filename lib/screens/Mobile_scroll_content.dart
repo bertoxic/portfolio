@@ -464,7 +464,8 @@ class MobileScrollContent extends StatelessWidget {
 
                     Row(children: [
                     Expanded(
-                      child: Container(child: Row(children: [
+                      child: Container(child:
+                      Row(children: [
                           Expanded(
                             child: Column(
                               children: [

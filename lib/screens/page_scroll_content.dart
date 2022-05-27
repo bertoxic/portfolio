@@ -200,7 +200,7 @@ class PageScrollContent extends StatelessWidget {
                         'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',
                     align: TextAlign.center,           )
                 ],)),
-              SizedBox(height: screenSize.width*0.1,),
+              SizedBox(height: screenSize.height*0.0,),
               Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
                 //screenSize: screenSize,
                 child:Column(
@@ -283,7 +283,7 @@ class PageScrollContent extends StatelessWidget {
                 //   ],
                 // ),
               ):null,),
-              SizedBox(height: screenSize.width*0.1,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
               Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
                 //screenSize: screenSize,
                 child:Column(
@@ -365,7 +365,144 @@ class PageScrollContent extends StatelessWidget {
                 //   ],
                 // ),
               ):null,),
-              SizedBox(height: screenSize.width*0.1,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+                //screenSize: screenSize,
+                child:Column(
+                  children: [
+                    Expanded(
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container(  padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
+                              child: Text('Over four years experience in the use of ClipStudio for creation of beautiful illustrations',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              child: Image.asset(
+                                'assets/images/iconpic/clipstudio.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: screenSize.width*0.01,),
+                    Expanded(
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              child: Image.asset(
+                                'assets/images/iconpic/pngwing.com (9).png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
+                              child: Text('Proficient skill in the use of photoshop and its various integrations',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+
+              ):null,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
+              Container(child:screenSize.width<=800?Container(height: screenSize.height*0.4,width: screenSize.width*0.8,
+                child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [  SizedBox(width: screenSize.width*0.02,),
+                    Expanded(
+                      child: Column(children: [
+                        Expanded(
+                          child: Row(children: [
+                            Expanded(
+                              child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                child: Image.asset(
+                                  'assets/images/iconpic/phonehand.png',
+                                  fit: BoxFit.contain,
+                                ),
+                              ),
+                            ),
+                            SizedBox(width: screenSize.width*0.02,),
+
+                            Expanded(
+                              child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                                child: Center(
+                                  child: Text('Mobile development  using flutter and dart a cross platform programing language/framework,for development on andriod and ios',
+                                    style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                ),
+                              ),
+                            ),
+                          ],),
+                        )
+                      ],),
+                    ),
+                    SizedBox(width: screenSize.width*0.02,),
+
+                    // Container(child: Row(children: [
+                    //   Expanded(
+                    //     child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                    //       child: Image.asset(
+                    //         'assets/images/iconpic/figma.png',
+                    //         fit: BoxFit.contain,
+                    //       ),
+                    //     ),
+                    //   ),
+                    //   SizedBox(width: screenSize.width*0.02,),
+                    //   Expanded(
+                    //     child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                    //       child: Center(
+                    //         child: Text('One year experience in the use of Figma for creation of beautiful and usable web and mobile app designs ',
+                    //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ],),)
+
+
+                  ],
+                ),):null,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
+              Container(child:screenSize.width<=800?Container(child:
+              Row(children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                        child: Image.asset(
+                          'assets/images/iconpic/figma.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(width: screenSize.width*0.02,),
+                Expanded(
+                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                    child: Center(
+                      child: Text('One year experience in the use of Figma for creation of beautiful and usable web and mobile app designs ',
+                        style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                    ),
+                  ),
+                ),
+              ],),):null,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
               Container(
                 child:screenSize.width>=800?
                 Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -556,7 +693,7 @@ class PageScrollContent extends StatelessWidget {
                 ],):null,
               ),
               SizedBox(height: screenSize.width*0.02,),
-              Container(height: screenSize.height*0.4,width: screenSize.width*0.8,
+              Container(
                 child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
           children: [  SizedBox(width: screenSize.width*0.02,),
             Expanded(
