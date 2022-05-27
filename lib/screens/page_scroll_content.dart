@@ -29,9 +29,9 @@ class PageScrollContent extends StatelessWidget {
             width:screenSize.width, //decoration: (BoxDecoration(border: Border.all(color: Colors.white))),
             child: Column(
               children: [
-                Center(
-                  child: Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
-                      child:Column(children: [
+                Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
+                    child:Center(
+                      child: Column(children: [
                         SizedBox(height: screenSize.width*0.04,),
                         Text('Know Me',style: TextStyle(fontSize: 36,color: Colors.white),),
                         SizedBox(height: 20,),
@@ -40,11 +40,11 @@ class PageScrollContent extends StatelessWidget {
                               'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am '
                               'innovative and able to produce mobile application from concept to launch,combining both my skills in UI/UX design for better web and mobile experience for the users',
                             align: TextAlign.center,           )
-                      ],)),
-                ),
+                      ],),
+                    )),
                 SizedBox(height: screenSize.width*0.05,),
-                FrostedGlass(
-                  child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                FrostedGlass( 
+                  child: screenSize.width>=800?Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(
                         child: Container( width: screenSize.width*0.4, height: screenSize.height*0.5,
@@ -57,17 +57,42 @@ class PageScrollContent extends StatelessWidget {
 
                       Expanded(
                         child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                            child: InfoPage(children: [
-                              Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 36),),
-                              SizedBox(height: screenSize.width*0.005,),
-                              SmallText(text: 'Programming',),
-                              SmallText(text: 'Art and Painting',),
-                              SmallText(text: 'Exercise',),
-                              SmallText(text: 'Movies',),
-                              SmallText(text: 'Hunting',),
+                          child: InfoPage(children: [
+                            Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 36),),
+                            SizedBox(height: screenSize.width*0.005,),
+                            SmallText(text: 'Programming',),
+                            SmallText(text: 'Art and Painting',),
+                            SmallText(text: 'Exercise',),
+                            SmallText(text: 'Movies',),
+                            SmallText(text: 'Hunting',),
 
-                                      ],),
+                          ],),
                         ),
+                      ),
+
+                    ],
+                  ):
+                  Column( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Container( width: screenSize.width*0.4, height: screenSize.height*0.3,
+                        child: Image.asset(
+                          'assets/images/animals.jpg',
+                          fit: BoxFit.cover,
+                        ),
+                      ), SizedBox(width: screenSize.width*0.01,),
+
+                      Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
+                        child: Column( crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                          Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
+                          SizedBox(height: screenSize.width*0.005,),
+                          SmallText(text: 'Programming',size: 14,),
+                          SmallText(text: 'Art and Painting',size: 14,),
+                          SmallText(text: 'Exercise',size: 14,),
+                          SmallText(text: 'Movies',size: 14,),
+                          SmallText(text: 'Hunting',size: 14,),
+
+                        ],),
                       ),
 
                     ],
@@ -82,67 +107,67 @@ class PageScrollContent extends StatelessWidget {
                         children: [
                           Expanded(
                             child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),height:screenSize.height*0.5 ,
-                              child:Expanded(
-                                child: Column(children: [
-                                  Row(  mainAxisAlignment: MainAxisAlignment.start,
+                              child:Column(children: [
+                                Expanded(
+                                  child: Row(  mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
                                     Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 34),),
                                     SizedBox(height: screenSize.width*0.005,),
                                   ],),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Name:  ',),
-                                      Expanded(child: SmallText(text: 'Oraezu Chukwuemeka Albert',)),
-                                    ],
-                                  ),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Sex:  ',),
-                                      Expanded(child: SmallText(text: '    Male',)),
-                                    ],
-                                  ),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Roles:  ',),
-                                      Expanded(child: SmallText(text: ' Web Designer, Programmer, Illustrator',)),
-                                    ],
-                                  ),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Race:  ',),
-                                      Expanded(child: SmallText(text: '  Earth',)),
-                                    ],
-                                  ),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Brand:  ',),
-                                      Expanded(child: SmallText(text: 'BerTex ',)),
-                                    ],
-                                  ),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      SmallText(text: 'Email:  ',),
-                                      Expanded(child: SmallText(text: ' Dirusalbert@gmail.com',)),
-                                    ],
-                                  ),
-                                  SizedBox(height: screenSize.width*0.05,),
-                                  Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      GestureDetector(  onTap: (){
-                                        launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
-                                      },
-                                        child: Container(
-                                          padding: EdgeInsets.all(15),
-                                          decoration: (BoxDecoration(color: Colors.grey.shade200,
-                                              borderRadius:BorderRadius.circular(10))),
-                                          child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
-                                      )
-                                    ],
-                                  ),
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Name:  ',),
+                                    Expanded(child: SmallText(text: 'Oraezu Chukwuemeka Albert',)),
+                                  ],
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Sex:  ',),
+                                    Expanded(child: SmallText(text: '    Male',)),
+                                  ],
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Roles:  ',),
+                                    Expanded(child: SmallText(text: ' Web Designer, Programmer, Illustrator',)),
+                                  ],
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Race:  ',),
+                                    Expanded(child: SmallText(text: '  Earth',)),
+                                  ],
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Brand:  ',),
+                                    Expanded(child: SmallText(text: 'BerTex ',)),
+                                  ],
+                                ),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SmallText(text: 'Email:  ',),
+                                    Expanded(child: SmallText(text: ' Dirusalbert@gmail.com',)),
+                                  ],
+                                ),
+                                SizedBox(height: screenSize.width*0.05,),
+                                Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    GestureDetector(  onTap: (){
+                                      launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
+                                    },
+                                      child: Container(
+                                        padding: EdgeInsets.all(15),
+                                        decoration: (BoxDecoration(color: Colors.grey.shade200,
+                                            borderRadius:BorderRadius.circular(10))),
+                                        child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
+                                    )
+                                  ],
+                                ),
 
 
-                                ],),
-                              ),
+                              ],),
                             ),
                           ),
                           SizedBox(width: screenSize.width*0.01,),

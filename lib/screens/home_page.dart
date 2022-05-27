@@ -44,9 +44,9 @@ class _HomePageState extends State<HomePage> {
         appBar:screenSize.width<=800? AppBar(iconTheme: IconThemeData(color: Colors.white),
           elevation: 0,backgroundColor: Colors.white.withOpacity(0.1),):null,
         // PreferredSize(preferredSize: Size(screenSize.width,70), child: TopBarContents(_opacity),),
-        drawer:screenSize.width<=800? MenuDrawer(): MenuDrawer(),
+        drawer: MenuDrawer(),
         body: Container(
-          child: screenSize.width>=800?Row(
+          child: Row(
             children: [
               Container(
                 padding: EdgeInsets.only(left: screenSize.width*0.06,bottom: 30,top: 10),
@@ -82,16 +82,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              // GestureDetector( onTap: (){
-              //   setState(() {
-              //     print(_scrollPosition.toString());
-              //   });
-              // },
-              //     child: Container( color: Colors.white,
-              //       child: Text('hello click me'),))
-
             ],
-          ):SingleChildScrollView( padding:EdgeInsets.symmetric(horizontal: screenSize.width*0.05), child: MobileScrollContent()),
+          )
 
         ),
 
