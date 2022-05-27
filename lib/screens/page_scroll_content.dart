@@ -30,7 +30,7 @@ class PageScrollContent extends StatelessWidget {
               child:Center(
                 child: Column(children: [
                   SizedBox(height: screenSize.width*0.04,),
-                  Text('Know Meddddd',style: TextStyle(fontSize: 36,color: Colors.white),),
+                  Text('Know Mewww',style: TextStyle(fontSize: 36,color: Colors.white),),
                   SizedBox(height: 20,),
                   SmallText( size: 24,
                     text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '
@@ -41,7 +41,8 @@ class PageScrollContent extends StatelessWidget {
               )),
           SizedBox(height: screenSize.width*0.05,),
           FrostedGlass(
-            child: screenSize.width>=800?Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+            child: screenSize.width>=800?
+            Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
                   child: Container( width: screenSize.width*0.4, height: screenSize.height*0.5,
@@ -81,16 +82,82 @@ class PageScrollContent extends StatelessWidget {
                 Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
                   child: Column( crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                    Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
-                    SizedBox(height: screenSize.width*0.005,),
-                    SmallText(text: 'Programming',size: 14,),
-                    SmallText(text: 'Art and Painting',size: 14,),
-                    SmallText(text: 'Exercise',size: 14,),
-                    SmallText(text: 'Movies',size: 14,),
-                    SmallText(text: 'Hunting',size: 14,),
+                      Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
+                      SizedBox(height: screenSize.width*0.005,),
+                      SmallText(text: 'Programming',size: 14,),
+                      SmallText(text: 'Art and Painting',size: 14,),
+                      SmallText(text: 'Exercise',size: 14,),
+                      SmallText(text: 'Movies',size: 14,),
+                      SmallText(text: 'Hunting',size: 14,),
 
-                  ],),
+                    ],),
                 ),
+
+              ],
+            ),
+          ),
+          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.white,),),
+          Container(
+            child: screenSize.width>=800?
+            Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                    child: InfoPage(children: [
+                      Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 36),),
+                      SizedBox(height: screenSize.width*0.005,),
+                      SmallText(text: 'Programming',),
+                      SmallText(text: 'Art and Painting',),
+                      SmallText(text: 'Exercise',),
+                      SmallText(text: 'Movies',),
+                      SmallText(text: 'Hunting',),
+
+                    ],),
+                  ),
+                ),
+                 SizedBox(width: screenSize.width*0.01,),
+                Expanded(
+                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.5,
+                    child: Image.asset(
+                      'assets/images/face.jpg',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+
+
+
+              ],
+            ):
+            Column( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
+                  child: Column( crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
+                      SizedBox(height: screenSize.width*0.005,),
+                      SmallText(text: 'Programming',size: 14,),
+                      SmallText(text: 'Art and Painting',size: 14,),
+                      SmallText(text: 'Exercise',size: 14,),
+                      SmallText(text: 'Movies',size: 14,),
+                      SmallText(text: 'Hunting',size: 14,),
+
+                    ],),
+                ),
+                 SizedBox(width: screenSize.width*0.01,),
+                Row( mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
+                      width: screenSize.width*0.4, height: screenSize.height*0.3,
+                      child: Image.asset(
+                        'assets/images/face.jpg',
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ],
+                ),
+
+
 
               ],
             ),
