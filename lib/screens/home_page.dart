@@ -50,7 +50,8 @@ class _HomePageState extends State<HomePage> {
             children: [
               Container(
                 padding: EdgeInsets.only(left: screenSize.width*0.06,bottom: 30,top: 10),
-                child:  FrostedGlass( height: screenSize.height*0.9,width: screenSize.width*0.2,
+                child:  screenSize.width>=800?
+                FrostedGlass( height: screenSize.height*0.9,width: screenSize.width*0.2,
                   child: Column(children: [
                     Expanded(
                       child: Container( width: screenSize.width*0.3, height: 400,
@@ -67,7 +68,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     ButtonColumn(_opacity),
                   ],),
-                ),
+                ):null,
               ),
               SizedBox(width: screenSize.width/15,),
               Expanded(
