@@ -39,7 +39,7 @@ class PageScrollContent extends StatelessWidget {
                       align: TextAlign.center,           )
                 ],),
               )),
-          SizedBox(height: screenSize.width*0.05,),
+          SizedBox(height: screenSize.width*0.1,),
           FrostedGlass(
             child: screenSize.width>=800?
             Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
@@ -96,7 +96,7 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.white,),),
+          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.white,),),
           Container(
             child: screenSize.width>=800?
             Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
@@ -154,7 +154,7 @@ class PageScrollContent extends StatelessWidget {
                       SmallText(text: 'Roles: Web Designer, Programmer, Illustrator',size: 14,),
                       SmallText(text: 'Race: Earth',size: 14,),
                       SmallText(text: 'Email:Dirusalbert@gmail.com',size: 14,),
-                      SizedBox(height: screenSize.width*0.01,),
+                      SizedBox(height: screenSize.width*0.04,),
                       Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           GestureDetector(  onTap: (){
@@ -170,7 +170,7 @@ class PageScrollContent extends StatelessWidget {
 
                     ],),
                 ),
-                 SizedBox(width: screenSize.width*0.01,),
+                 SizedBox(height: screenSize.width*0.04,),
                 Row( mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
@@ -188,100 +188,188 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.white,),),
+          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
           Center(child: Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
             children: [ Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
                 child:Column(children: [
                   Text('My Stack',style: TextStyle(fontSize: 36,color: Colors.white),),
                   SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
               SizedBox(height: 20,),
-                  SmallText( size: 20,
+                  SmallText( size: screenSize.width>=800?20:16,
                     text:'After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills '
                         'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',
                     align: TextAlign.center,           )
                 ],)),
-              SizedBox(height: screenSize.width*0.04,),
-              Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                Expanded(child: FlipCard(screenSize: screenSize,
-                  child:Column(
-                    children: [
-                      Expanded(
-                        child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Expanded(
-                              child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                child: Text(' Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software'
-                                    ' for both android, windows and mac ',
-                                  style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                              ),
-                            ),
-                            SizedBox(width: screenSize.width*0.01,),
-                            Expanded(
-                              child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                                child: Image.asset(
-                                  'assets/images/iconpic/daerbird.png',
-                                  fit: BoxFit.contain,
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                      SizedBox(height: screenSize.width*0.01,),
-                      Expanded(
-                        child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Expanded(
-                              child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                                child: Image.asset(
-                                  'assets/images/iconpic/flutter.png',
-                                  fit: BoxFit.contain,
-                                ),
-                              ),
-                            ),
-
-                            SizedBox(width: screenSize.width*0.01,),
-                            Expanded(
-                              child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                child: Text('Extensive knowledge in the use of flutter framework for developing interactive cross platform UI',
-                                  style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+              SizedBox(height: screenSize.width*0.1,),
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+                //screenSize: screenSize,
+                child:Column(
                   children: [
                     Expanded(
-                      child: Center(
-                        child: Column(
-                          children: [
-                            Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              child: Text(' Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software'
+                                  ' for both android, windows and mac ',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
-                                'assets/images/iconpic/adobe.png',
+                                'assets/images/iconpic/daerbird.png',
                                 fit: BoxFit.contain,
                               ),
                             ),
-                            ],
-                        ),
-                      ),
-                    ), SizedBox(width: screenSize.width*0.01,),
+                          ),
 
-                    Expanded(
-                      child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                        child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
-                          style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                        ],
                       ),
                     ),
+                    SizedBox(height: screenSize.width*0.01,),
+                    Expanded(
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              child: Image.asset(
+                                'assets/images/iconpic/flutter.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
 
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                              child: Text('Extensive knowledge in the use of flutter framework for developing interactive cross platform UI',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+
+                        ],
+                      ),
+                    ),
                   ],
                 ),
-                )),
+                // backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                //   children: [
+                //     Expanded(
+                //       child: Center(
+                //         child: Column(
+                //           children: [
+                //             Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
+                //               child: Image.asset(
+                //                 'assets/images/iconpic/adobe.png',
+                //                 fit: BoxFit.contain,
+                //               ),
+                //             ),
+                //             ],
+                //         ),
+                //       ),
+                //     ), SizedBox(width: screenSize.width*0.01,),
+                //
+                //     Expanded(
+                //       child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                //         child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
+                //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                //       ),
+                //     ),
+                //
+                //   ],
+                // ),
+              ):null,),
+              SizedBox(height: screenSize.width*0.1,),
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+                //screenSize: screenSize,
+                child:Column(
+                  children: [
+                    Expanded(
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              child: Text(' Use of firebase and various of it\'s interations for user authentication,creation and database  ',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              child: Image.asset(
+                                'assets/images/iconpic/firebase.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: screenSize.width*0.01,),
+                    Expanded(
+                      child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
+                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              child: Image.asset(
+                                'assets/images/iconpic/javaicon.png',
+                                fit: BoxFit.contain,
+                              ),
+                            ),
+                          ),
+
+                          SizedBox(width: screenSize.width*0.01,),
+                          Expanded(
+                            child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                              child: Text('Basic understanding of java and its syntax',
+                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                            ),
+                          ),
+
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                // backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                //   children: [
+                //     Expanded(
+                //       child: Center(
+                //         child: Column(
+                //           children: [
+                //             Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
+                //               child: Image.asset(
+                //                 'assets/images/iconpic/adobe.png',
+                //                 fit: BoxFit.contain,
+                //               ),
+                //             ),
+                //             ],
+                //         ),
+                //       ),
+                //     ), SizedBox(width: screenSize.width*0.01,),
+                //
+                //     Expanded(
+                //       child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                //         child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
+                //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                //       ),
+                //     ),
+                //
+                //   ],
+                // ),
+              ):null,),
+              SizedBox(height: screenSize.width*0.1,),
+              Container(
+                child:screenSize.width>=800?
+                Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
                   Expanded(child: FlipCard(screenSize: screenSize,
                     child:Column(
                       children: [
@@ -290,7 +378,8 @@ class PageScrollContent extends StatelessWidget {
                             children: [
                               Expanded(
                                 child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                  child: Text('Use of firebase and various of it\'s integrations for user authentication,creation and database ',
+                                  child: Text(' Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software'
+                                      ' for both android, windows and mac ',
                                     style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
                                 ),
                               ),
@@ -298,7 +387,7 @@ class PageScrollContent extends StatelessWidget {
                               Expanded(
                                 child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
                                   child: Image.asset(
-                                    'assets/images/iconpic/firebase.png',
+                                    'assets/images/iconpic/daerbird.png',
                                     fit: BoxFit.contain,
                                   ),
                                 ),
@@ -314,7 +403,7 @@ class PageScrollContent extends StatelessWidget {
                               Expanded(
                                 child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
                                   child: Image.asset(
-                                    'assets/images/iconpic/javaicon.png',
+                                    'assets/images/iconpic/flutter.png',
                                     fit: BoxFit.contain,
                                   ),
                                 ),
@@ -323,7 +412,7 @@ class PageScrollContent extends StatelessWidget {
                               SizedBox(width: screenSize.width*0.01,),
                               Expanded(
                                 child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                  child: Text(' Basic understanding of java and it\'s syntax',
+                                  child: Text('Extensive knowledge in the use of flutter framework for developing interactive cross platform UI',
                                     style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
                                 ),
                               ),
@@ -333,60 +422,139 @@ class PageScrollContent extends StatelessWidget {
                         ),
                       ],
                     ),
-                    backchild: Column(
-                      children: [
-                        Expanded(
-                          child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                  backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: Center(
+                          child: Column(
                             children: [
-                              Expanded(
-                                child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                  child: Text('Over four years experience in the use of ClipStudio for creation of beautiful illustrations',
-                                    style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                              Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                child: Image.asset(
+                                  'assets/images/iconpic/adobe.png',
+                                  fit: BoxFit.contain,
                                 ),
                               ),
-                              SizedBox(width: screenSize.width*0.01,),
-                              Expanded(
-                                child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                                  child: Image.asset(
-                                    'assets/images/iconpic/clipstudio.png',
-                                    fit: BoxFit.contain,
-                                  ),
-                                ),
-                              ),
-
-                            ],
+                              ],
                           ),
                         ),
-                        SizedBox(height: screenSize.width*0.01,),
-                        Expanded(
-                          child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Expanded(
-                                child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                                  child: Image.asset(
-                                    'assets/images/iconpic/pngwing.com (9).png',
-                                    fit: BoxFit.contain,
-                                  ),
-                                ),
-                              ),
+                      ), SizedBox(width: screenSize.width*0.01,),
 
-                              SizedBox(width: screenSize.width*0.01,),
-                              Expanded(
-                                child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                                  child: Text('Proficient skill in the use of photoshop and its various integrations',
-                                    style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                                ),
-                              ),
-
-                            ],
-                          ),
+                      Expanded(
+                        child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                          child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
+                            style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
                         ),
-                      ],
-                    ),
+                      ),
+
+                    ],
+                  ),
                   )),
-                  // SizedBox(width: screenSize.width*0.04,),
+                    Expanded(child: FlipCard(screenSize: screenSize,
+                      child:Column(
+                        children: [
+                          Expanded(
+                            child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                                    child: Text('Use of firebase and various of it\'s integrations for user authentication,creation and database ',
+                                      style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                  ),
+                                ),
+                                SizedBox(width: screenSize.width*0.01,),
+                                Expanded(
+                                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                    child: Image.asset(
+                                      'assets/images/iconpic/firebase.png',
+                                      fit: BoxFit.contain,
+                                    ),
+                                  ),
+                                ),
 
-              ],),
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: screenSize.width*0.01,),
+                          Expanded(
+                            child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                    child: Image.asset(
+                                      'assets/images/iconpic/javaicon.png',
+                                      fit: BoxFit.contain,
+                                    ),
+                                  ),
+                                ),
+
+                                SizedBox(width: screenSize.width*0.01,),
+                                Expanded(
+                                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                                    child: Text(' Basic understanding of java and it\'s syntax',
+                                      style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                  ),
+                                ),
+
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                      backchild: Column(
+                        children: [
+                          Expanded(
+                            child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                                    child: Text('Over four years experience in the use of ClipStudio for creation of beautiful illustrations',
+                                      style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                  ),
+                                ),
+                                SizedBox(width: screenSize.width*0.01,),
+                                Expanded(
+                                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                    child: Image.asset(
+                                      'assets/images/iconpic/clipstudio.png',
+                                      fit: BoxFit.contain,
+                                    ),
+                                  ),
+                                ),
+
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: screenSize.width*0.01,),
+                          Expanded(
+                            child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                                    child: Image.asset(
+                                      'assets/images/iconpic/pngwing.com (9).png',
+                                      fit: BoxFit.contain,
+                                    ),
+                                  ),
+                                ),
+
+                                SizedBox(width: screenSize.width*0.01,),
+                                Expanded(
+                                  child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                                    child: Text('Proficient skill in the use of photoshop and its various integrations',
+                                      style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                  ),
+                                ),
+
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    )),
+                    // SizedBox(width: screenSize.width*0.04,),
+
+                ],):null,
+              ),
               SizedBox(height: screenSize.width*0.02,),
               Container(height: screenSize.height*0.4,width: screenSize.width*0.8,
                 child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
@@ -434,7 +602,7 @@ class PageScrollContent extends StatelessWidget {
           ),)
                         ],
           )),
-          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.white,),),
+          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
           Container(  height: 400,
             child: Column(
               children: [  Text(' Project ',style: TextStyle(fontSize: 36,color: Colors.white),),
@@ -450,7 +618,7 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.white,),),
+          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
           // ContactMe(
           //   screenSize: screenSize.width,),
           Container(child: Column(
