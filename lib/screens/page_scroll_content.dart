@@ -30,7 +30,7 @@ class PageScrollContent extends StatelessWidget {
               child:Center(
                 child: Column(children: [
                   SizedBox(height: screenSize.width*0.04,),
-                  Text('Know Me',style: TextStyle(fontSize: 36,color: Colors.white),),
+                  Text('Know Love',style: TextStyle(fontSize: 36,color: Colors.white),),
                   SizedBox(height: 20,),
                   SmallText( size: 24,
                     text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '

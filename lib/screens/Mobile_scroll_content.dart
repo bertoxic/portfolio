@@ -45,7 +45,7 @@ class MobileScrollContent extends StatelessWidget {
                       ), SizedBox(width: screenSize.width*0.01,),
 
                       Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
-                        child: Column( crossAxisAlignment: CrossAxisAlignment.start,
+                        child: InfoPage(
                           children: [
                             Text('Interests',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
                             SizedBox(height: screenSize.width*0.005,),
@@ -61,47 +61,101 @@ class MobileScrollContent extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: screenSize.width*0.3,child: Divider(thickness: 1,color: Colors.grey.withOpacity(0.5),),),
-                Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
-                  child: Column( crossAxisAlignment: CrossAxisAlignment.start,
+                SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 0.5,color: Colors.grey),),
+                SizedBox(height: screenSize.width*0.01,),
+                Container(
+                  child: screenSize.width>=800?
+                  Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
-                      SizedBox(height: screenSize.width*0.005,),
-                      SmallText(text: 'Name: Oraezu Albert',size: 14,),
-                      SmallText(text: 'Gender: Male',size: 14,),
-                      SmallText(text: 'Roles: Web Designer, Programmer, Illustrator',size: 14,),
-                      SmallText(text: 'Race: Earth',size: 14,),
-                      SmallText(text: 'Email:Dirusalbert@gmail.com',size: 14,),
-                      SizedBox(height: screenSize.width*0.01,),
-                      Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                      Expanded(
+                        child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
+                          child: InfoPage(children: [
+                            Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 36),),
+                            SizedBox(height: screenSize.width*0.005,),
+                            SmallText(text: 'Name: Oraezu Albert',),
+                            SmallText(text: 'Gender: Male',),
+                            SmallText(text: 'Roles: Web Designer, Programmer, Illustrator',),
+                            SmallText(text: 'Race: Earth',),
+                            SmallText(text: 'Email:Dirusalbert@gmail.com',),
+                            SizedBox(height: screenSize.width*0.01,),
+                            Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                GestureDetector(  onTap: (){
+                                  launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
+                                },
+                                  child: Container( padding: EdgeInsets.all(15),
+                                    decoration: (BoxDecoration(color: Colors.grey.shade200,
+                                        borderRadius:BorderRadius.circular(10))),
+                                    child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
+                                )
+                              ],
+                            ),
+
+                          ],),
+                        ),
+                      ),
+                      SizedBox(width: screenSize.width*0.01,),
+                      Expanded(
+                        child: Container( width: screenSize.width*0.4, height: screenSize.height*0.5,
+                          child: Image.asset(
+                            'assets/images/face.jpg',
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+
+
+
+                    ],
+                  ):
+                  Column( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Container( padding: EdgeInsets.only(top: screenSize.height*0.02,left: screenSize.width*0.02,bottom:screenSize.width*0.02  ),
+                        child: Column( crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('Bio',style: TextStyle(color: Colors.white,fontFamily: 'Palatino',fontSize: 28),),
+                            SizedBox(height: screenSize.width*0.005,),
+                            SmallText(text: 'Name: Oraezu Albert',size: 14,),
+                            SmallText(text: 'Gender: Male',size: 14,),
+                            SmallText(text: 'Roles: Web Designer, Programmer, Illustrator',size: 14,),
+                            SmallText(text: 'Race: Earth',size: 14,),
+                            SmallText(text: 'Email:Dirusalbert@gmail.com',size: 14,),
+                            SizedBox(height: screenSize.width*0.01,),
+                            Row( mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                GestureDetector(  onTap: (){
+                                  launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
+                                },
+                                  child: Container( padding: EdgeInsets.all(15),
+                                    decoration: (BoxDecoration(color: Colors.grey.shade200,
+                                        borderRadius:BorderRadius.circular(10))),
+                                    child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
+                                )
+                              ],
+                            ),
+
+                          ],),
+                      ),
+                      SizedBox(width: screenSize.width*0.01,),
+                      Row( mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          GestureDetector(  onTap: (){
-                            launchUrl(Uri.parse('https://drive.google.com/file/d/1OYESfdzPfDp0VR9X4aOfrhzNgSAUhoUv/view?usp=sharing'));
-                          },
-                            child: Container( padding: EdgeInsets.all(15),
-                              decoration: (BoxDecoration(color: Colors.grey.shade200,
-                                  borderRadius:BorderRadius.circular(10))),
-                              child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
-                          )
+                          Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
+                            width: screenSize.width*0.4, height: screenSize.height*0.3,
+                            child: Image.asset(
+                              'assets/images/face.jpg',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
                         ],
                       ),
 
-                    ],),
-                ),
-                SizedBox(width: screenSize.width*0.01,),
-                Row( mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
-                      width: screenSize.width*0.4, height: screenSize.height*0.3,
-                      child: Image.asset(
-                        'assets/images/face.jpg',
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ],
+
+
+                    ],
+                  ),
                 ),
 
-                SizedBox(height: screenSize.height*0.2,child: Divider(thickness: 1,color: Colors.grey.withOpacity(0.5),),),
+                SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
                 Center(child:
                 Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
