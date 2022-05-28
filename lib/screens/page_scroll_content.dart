@@ -30,8 +30,8 @@ class PageScrollContent extends StatelessWidget {
               child:Center(
                 child: Column(children: [
                   SizedBox(height: screenSize.width*0.04,),
-                  Text('Know Me',style: TextStyle(fontSize: 36,color: Colors.white),),
-                  SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
+                  Text('Know Me',style: TextStyle(fontSize: screenSize.width>=800?36:28,color: Colors.white),),
+                  SizedBox(width: screenSize.width*0.15,child: Divider(thickness: 1,color: Colors.red,),),
                   SmallText( size: screenSize.width>=800?24:16,
                     text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '
                         'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am '
@@ -39,7 +39,7 @@ class PageScrollContent extends StatelessWidget {
                       align: TextAlign.center,           )
                 ],),
               )),
-          SizedBox(height: screenSize.width*0.1,),
+          SizedBox(height: screenSize.height*0.1,),
           FrostedGlass(
             child: screenSize.width>=800?
             Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
@@ -96,7 +96,7 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.white,),),
+          SizedBox(height: screenSize.height*0.2,child: Divider(thickness: 1,color: Colors.white,),),
           Container(
             child: screenSize.width>=800?
             Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
@@ -119,7 +119,7 @@ class PageScrollContent extends StatelessWidget {
                           },
                             child: Container( padding: EdgeInsets.all(15),
                               decoration: (BoxDecoration(color: Colors.grey.shade200,
-                                  borderRadius:BorderRadius.circular(10))),
+                                  borderRadius:BorderRadius.circular(5))),
                               child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
                           )
                         ],
@@ -162,7 +162,7 @@ class PageScrollContent extends StatelessWidget {
                           },
                             child: Container( padding: EdgeInsets.all(15),
                               decoration: (BoxDecoration(color: Colors.grey.shade200,
-                                  borderRadius:BorderRadius.circular(10))),
+                                  borderRadius:BorderRadius.circular(5))),
                               child:Text('View Resume',style: TextStyle(color: Colors.grey.shade800),),),
                           )
                         ],
@@ -170,7 +170,7 @@ class PageScrollContent extends StatelessWidget {
 
                     ],),
                 ),
-                 SizedBox(height: screenSize.width*0.04,),
+                 SizedBox(height: screenSize.height*0.02,),
                 Row( mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Container( padding: EdgeInsets.only(left:screenSize.width*0.02,bottom:screenSize.width*0.02, ),
@@ -188,11 +188,11 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.grey,),),
+          SizedBox(height: screenSize.height*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
           Center(child: Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
             children: [ Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
                 child:Column(children: [
-                  Text('My Stack',style: TextStyle(fontSize: 36,color: Colors.white),),
+                  Text('My Stack',style: TextStyle(fontSize: screenSize.width<=800?28:36,color: Colors.white),),
                   SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
               SizedBox(height: 20,),
                   SmallText( size: screenSize.width>=800?20:16,
@@ -201,22 +201,22 @@ class PageScrollContent extends StatelessWidget {
                     align: TextAlign.center,           )
                 ],)),
               SizedBox(height: screenSize.height*0.04,),
-              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.3,
                 //screenSize: screenSize,
                 child:Column(
                   children: [
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:2,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
-                              child: Text(' Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software'
+                              child: Text('Skilled in the use of Dart programming language in creation of interactive  functional and responsive mobile apps ,web and software'
                                   ' for both android, windows and mac ',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
-                          SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          SizedBox(width: screenSize.width*0.02),
+                          Expanded(flex: 1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
                               width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
@@ -233,7 +233,7 @@ class PageScrollContent extends StatelessWidget {
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
                               width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
@@ -244,10 +244,10 @@ class PageScrollContent extends StatelessWidget {
                           ),
 
                           SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          Expanded(flex: 2,
                             child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
                               child: Text('Extensive knowledge in the use of flutter framework for developing interactive cross platform UI',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
 
@@ -256,49 +256,23 @@ class PageScrollContent extends StatelessWidget {
                     ),
                   ],
                 ),
-                // backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                //   children: [
-                //     Expanded(
-                //       child: Center(
-                //         child: Column(
-                //           children: [
-                //             Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
-                //               child: Image.asset(
-                //                 'assets/images/iconpic/adobe.png',
-                //                 fit: BoxFit.contain,
-                //               ),
-                //             ),
-                //             ],
-                //         ),
-                //       ),
-                //     ), SizedBox(width: screenSize.width*0.01,),
-                //
-                //     Expanded(
-                //       child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                //         child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
-                //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                //       ),
-                //     ),
-                //
-                //   ],
-                // ),
-              ):null,),
+                 ):null,),
               SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
-              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.3,
                 //screenSize: screenSize,
                 child:Column(
                   children: [
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:2,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
                               child: Text(' Use of firebase and various of it\'s interations for user authentication,creation and database  ',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
                           SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          Expanded(flex:1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
                               width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
@@ -315,7 +289,7 @@ class PageScrollContent extends StatelessWidget {
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
                               width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
@@ -326,10 +300,10 @@ class PageScrollContent extends StatelessWidget {
                           ),
 
                           SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          Expanded(flex: 2,
                             child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
                               child: Text('Basic understanding of java and its syntax',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
 
@@ -338,51 +312,25 @@ class PageScrollContent extends StatelessWidget {
                     ),
                   ],
                 ),
-                // backchild: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
-                //   children: [
-                //     Expanded(
-                //       child: Center(
-                //         child: Column(
-                //           children: [
-                //             Container(// width: screenSize.width*0.4, height: screenSize.height*0.4,
-                //               child: Image.asset(
-                //                 'assets/images/iconpic/adobe.png',
-                //                 fit: BoxFit.contain,
-                //               ),
-                //             ),
-                //             ],
-                //         ),
-                //       ),
-                //     ), SizedBox(width: screenSize.width*0.01,),
-                //
-                //     Expanded(
-                //       child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                //         child: Text(' Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons',
-                //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                //       ),
-                //     ),
-                //
-                //   ],
-                // ),
-              ):null,),
+                ):null,),
               SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
-              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
+              Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.3,
                 //screenSize: screenSize,
                 child:Column(
                   children: [
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:2,
                             child: Container(  padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
                               child: Text('Over four years experience in the use of ClipStudio for creation of beautiful illustrations',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
                           SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          Expanded(flex: 1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
-                              width: screenSize.width*0.4, height: screenSize.height*0.4,
+                              //width: screenSize.width*0.4, height: screenSize.height*0.3,
                               child: Image.asset(
                                 'assets/images/iconpic/clipstudio.png',
                                 fit: BoxFit.contain,
@@ -397,7 +345,7 @@ class PageScrollContent extends StatelessWidget {
                     Expanded(
                       child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Expanded(
+                          Expanded(flex:1,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
                               width: screenSize.width*0.4, height: screenSize.height*0.4,
                               child: Image.asset(
@@ -408,10 +356,10 @@ class PageScrollContent extends StatelessWidget {
                           ),
 
                           SizedBox(width: screenSize.width*0.01,),
-                          Expanded(
+                          Expanded(flex: 2,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02,),
                               child: Text('Proficient skill in the use of photoshop and its various integrations',
-                                style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
+                                style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
 
@@ -452,30 +400,7 @@ class PageScrollContent extends StatelessWidget {
                         )
                       ],),
                     ),
-                    SizedBox(width: screenSize.width*0.02,),
-
-                    // Container(child: Row(children: [
-                    //   Expanded(
-                    //     child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
-                    //       child: Image.asset(
-                    //         'assets/images/iconpic/figma.png',
-                    //         fit: BoxFit.contain,
-                    //       ),
-                    //     ),
-                    //   ),
-                    //   SizedBox(width: screenSize.width*0.02,),
-                    //   Expanded(
-                    //     child: Container( padding: EdgeInsets.only(top: screenSize.height*0.02),
-                    //       child: Center(
-                    //         child: Text('One year experience in the use of Figma for creation of beautiful and usable web and mobile app designs ',
-                    //           style: TextStyle(fontSize: 16,color: Colors.white,),textAlign: TextAlign.left,),
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ],),)
-
-
-                  ],
+                    SizedBox(width: screenSize.width*0.02,),],
                 ),):null,),
               SizedBox(height: screenSize.width<=800?screenSize.width*0.02:0,),
               Container(child:screenSize.width<=800?Container(child:
@@ -769,8 +694,10 @@ class PageScrollContent extends StatelessWidget {
 
           Container( //color: Colors.blueAccent, padding: EdgeInsets.all(screenSize.width*0.02),
               child: Padding(
-                padding: EdgeInsets.all(screenSize.width*0.02),
-                child: BottomBarColumn(heading: "Contacts", s1: 'Email: Chuksa3@gmail.com', s2: 'Phone: +2348104453238', s3: 'Bertoxic'),
+                padding: EdgeInsets.all(screenSize.width*0.01),
+                child: BottomBarColumn(heading: "Contacts",
+                    s1: 'Email: Chuksa3@gmail.com',
+                    s2: 'Phone: +2348104453238', s3: 'Bertoxic'),
               ))
         ],
       ),

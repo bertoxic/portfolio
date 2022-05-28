@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
 
 
     return Container( decoration: (BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/background1.jpg'),fit: BoxFit.cover))),
-      child: Scaffold( backgroundColor: Colors.black.withOpacity(0.1),
+      child: Scaffold( backgroundColor: Colors.black.withOpacity(0.5),
         appBar:screenSize.width<=800? AppBar(iconTheme: IconThemeData(color: Colors.white),
           elevation: 0,backgroundColor: Colors.white.withOpacity(0.1),):null,
         // PreferredSize(preferredSize: Size(screenSize.width,70), child: TopBarContents(_opacity),),
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
           child: Row(
             children: [
               Container(
-                padding: EdgeInsets.only(left: screenSize.width*0.06,bottom: 30,top: 10),
+                padding: EdgeInsets.only(left: screenSize.width>=800?screenSize.width*0.06:screenSize.width*0.02,bottom: 30,top: 10),
                 child:  screenSize.width>=800?
                 FrostedGlass( height: screenSize.height*0.9,width: screenSize.width*0.2,
                   child: Column(children: [
@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
               SizedBox(width: screenSize.width/15,),
               Expanded(
                 child: Container( padding: EdgeInsets.only(right: screenSize.width*0.01,),
-                  child: SingleChildScrollView( padding: EdgeInsets.only(right: screenSize.width*0.05),
+                  child: SingleChildScrollView( padding: EdgeInsets.only(right: screenSize.width>=800?screenSize.width*0.05:screenSize.width*0.05),
                     child: Column(
                         children: [
                           PageScrollContent(screenSize: screenSize),

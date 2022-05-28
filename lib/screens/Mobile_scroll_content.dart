@@ -4,9 +4,6 @@ import 'package:flutter_web/widgets/carousel.dart';
 import 'package:flutter_web/widgets/informative_page.dart';
 import 'package:flutter_web/widgets/small_text.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:video_player/video_player.dart';
-
-import '../widgets/button_column.dart';
 import '../widgets/frosted_glass.dart';
 import '../widgets/videopage.dart';
 

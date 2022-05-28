@@ -21,15 +21,15 @@ class _VideoPageState extends State<VideoPage> {
     ..initialize().then((_){setState(() {
 
     });});
-    _playerController.play();
-    _playerController.setLooping(true);
-
-    setState(() {
-      _playerController.value.isPlaying?
-          _playerController.play():
-          _playerController.play();
-      _playerController.setLooping(true);
-    });
+    // _playerController.play();
+    // _playerController.setLooping(true);
+    //
+    // setState(() {
+    //   _playerController.value.isPlaying?
+    //       _playerController.play():
+    //       _playerController.play();
+    //   _playerController.setLooping(true);
+    // });
 
 
   }
@@ -47,7 +47,7 @@ class _VideoPageState extends State<VideoPage> {
     ),
       floatingActionButton: FloatingActionButton(onPressed: () {   setState(() {
         _playerController.value.isPlaying?
-        _playerController.play():
+        _playerController.pause():
         _playerController.play();
         _playerController.setLooping(true);
       });},
