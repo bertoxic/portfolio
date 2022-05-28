@@ -40,10 +40,18 @@ class _VideoPageState extends State<VideoPage> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(
+    return Scaffold(
+      body: Center(
         child: Container( decoration: (BoxDecoration(color: Colors.transparent)),
           child: VideoPlayer(_playerController),),
     ),
+      floatingActionButton: FloatingActionButton(onPressed: () {   setState(() {
+        _playerController.value.isPlaying?
+        _playerController.play():
+        _playerController.play();
+        _playerController.setLooping(true);
+      });},
+      child: Icon(Icons.play_arrow),),
     );
   }
 }
