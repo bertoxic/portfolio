@@ -188,7 +188,7 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
+          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.grey,),),
           Center(child: Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
             children: [ Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
                 child:Column(children: [
@@ -200,7 +200,7 @@ class PageScrollContent extends StatelessWidget {
                         'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',
                     align: TextAlign.center,           )
                 ],)),
-              SizedBox(height: screenSize.height*0.0,),
+              SizedBox(height: screenSize.height*0.04,),
               Container(child:screenSize.width<=800?FrostedGlass( height: screenSize.height*0.5,
                 //screenSize: screenSize,
                 child:Column(
@@ -423,7 +423,7 @@ class PageScrollContent extends StatelessWidget {
 
               ):null,),
               SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
-              Container(child:screenSize.width<=800?Container(height: screenSize.height*0.4,width: screenSize.width*0.8,
+              Container(child:screenSize.width<=800?Container(height: screenSize.height*0.3,width: screenSize.width*0.8,
                 child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                   children: [  SizedBox(width: screenSize.width*0.02,),
                     Expanded(
@@ -477,13 +477,13 @@ class PageScrollContent extends StatelessWidget {
 
                   ],
                 ),):null,),
-              SizedBox(height: screenSize.width<=800?screenSize.width*0.1:0,),
+              SizedBox(height: screenSize.width<=800?screenSize.width*0.02:0,),
               Container(child:screenSize.width<=800?Container(child:
               Row(children: [
                 Expanded(
                   child: Column(
                     children: [
-                      Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
+                      Container( width: screenSize.width*0.4, height: screenSize.height*0.3,
                         child: Image.asset(
                           'assets/images/iconpic/figma.png',
                           fit: BoxFit.contain,
@@ -694,7 +694,7 @@ class PageScrollContent extends StatelessWidget {
               ),
               SizedBox(height: screenSize.width*0.02,),
               Container(
-                child: Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
+                child: screenSize.width>=800?Row( mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
           children: [  SizedBox(width: screenSize.width*0.02,),
             Expanded(
               child: Container( width: screenSize.width*0.4, height: screenSize.height*0.4,
@@ -736,18 +736,18 @@ class PageScrollContent extends StatelessWidget {
 
 
           ],
-          ),)
+          ):null,)
                         ],
           )),
-          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
-          Container(  height: 400,
+          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.grey,),),
+          Container(  height: screenSize.height*0.4,width: screenSize.height*0.6,
             child: Column(
-              children: [  Text(' Project ',style: TextStyle(fontSize: 36,color: Colors.white),),
-                SizedBox(height: screenSize.width*0.02,),
+              children: [  Text(' Project ',style: TextStyle(fontSize: 28,color: Colors.white),),
+                SizedBox(height: screenSize.width*0.04,),
                 Expanded(
                   child: SizedBox(
-                    height: screenSize.height * 0.15,
-                    width: screenSize.width*0.4,
+                    // height: screenSize.height * 0.15,
+                    // width: screenSize.width*0.4,
                     child: VideoPage(videoUrl: '/videos/mainfood.mp4',)
                     // VideoPage(videoUrl: '/videos/mainfood.mp4',),
                   ),
@@ -755,18 +755,19 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
+          SizedBox(height: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.grey,),),
           // ContactMe(
           //   screenSize: screenSize.width,),
-          Container(child: Column(
-            children: [  Text('Projects',style: TextStyle(fontSize: 36,color: Colors.white),),
-              SizedBox(height: screenSize.width*0.02,),
+          Container(
+              child: Column(
+            children: [  Text('Projects',style: TextStyle(fontSize: 28,color: Colors.white),),
+              SizedBox(height: screenSize.width*0.04,),
               MainCarousel(),
             ],
           )),
-          SizedBox(height: screenSize.width*0.02,child: Divider(thickness: 0.5,color: Colors.white,),),
+          SizedBox(height: screenSize.width*0.2,child: Divider(thickness: 0.5,color: Colors.white,),),
 
-          FrostedGlass( //color: Colors.blueAccent, padding: EdgeInsets.all(screenSize.width*0.02),
+          Container( //color: Colors.blueAccent, padding: EdgeInsets.all(screenSize.width*0.02),
               child: Padding(
                 padding: EdgeInsets.all(screenSize.width*0.02),
                 child: BottomBarColumn(heading: "Contacts", s1: 'Email: Chuksa3@gmail.com', s2: 'Phone: +2348104453238', s3: 'Bertoxic'),
