@@ -31,7 +31,7 @@ class PageScrollContent extends StatelessWidget {
                 child: Column(children: [
                   SizedBox(height: screenSize.width*0.04,),
                   Text('Know Me',style: TextStyle(fontSize: screenSize.width>=800?36:28,color: Colors.white),),
-                  SizedBox(width: screenSize.width*0.15,child: Divider(thickness: 1,color: Colors.red,),),
+                  SizedBox(height:screenSize.height*0.05,width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
                   SmallText( size: screenSize.width>=800?24:16,
                     text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '
                         'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am '
@@ -188,13 +188,13 @@ class PageScrollContent extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: screenSize.height*0.2,child: Divider(thickness: 1,color: Colors.grey,),),
+          SizedBox(height: screenSize.height*0.1,child: Divider(thickness: 1,color: Colors.grey,),),
           Center(child: Column( mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
             children: [ Container( margin: EdgeInsets.symmetric(horizontal: screenSize.width*0.03),
                 child:Column(children: [
                   Text('My Stack',style: TextStyle(fontSize: screenSize.width<=800?28:36,color: Colors.white),),
-                  SizedBox(width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
-              SizedBox(height: 20,),
+                  SizedBox(height:screenSize.height*0.05,width: screenSize.height*0.05,child: Divider(thickness: 1,color: Colors.red,),),
+
                   SmallText( size: screenSize.width>=800?20:16,
                     text:'After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills '
                         'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',

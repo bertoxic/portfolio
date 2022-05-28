@@ -56037,67 +56037,64 @@ r.toString
 s.e=r},
 $S:0}
 A.DA.prototype={
-K(d8,d9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=null,a1="assets/images/animals.jpg",a2="Interests",a3="Palatino",a4="Programming",a5="Art and Painting",a6="Exercise",a7="Name: Oraezu Albert",a8="Gender: Male",a9="Roles: Web Designer, Programmer, Illustrator",b0="Race: Earth",b1="Email:Dirusalbert@gmail.com",b2="View Resume",b3="assets/images/face.jpg",b4="assets/images/iconpic/daerbird.png",b5="assets/images/iconpic/flutter.png",b6="Extensive knowledge in the use of flutter framework for developing interactive cross platform UI",b7="assets/images/iconpic/firebase.png",b8="assets/images/iconpic/javaicon.png",b9="Over four years experience in the use of ClipStudio for creation of beautiful illustrations",c0="assets/images/iconpic/clipstudio.png",c1="assets/images/iconpic/pngwing.com (9).png",c2="Proficient skill in the use of photoshop and its various integrations",c3="assets/images/iconpic/phonehand.png",c4="Mobile development  using flutter and dart a cross platform programing language/framework,for development on andriod and ios",c5="assets/images/iconpic/figma.png",c6="One year experience in the use of Figma for creation of beautiful and usable web and mobile app designs ",c7=this.c,c8=c7.a,c9=c8*0.02,d0=c8*0.03,d1=c8*0.04,d2=A.ac(a0,d1,a0),d3=c8>=800,d4=A.bd("Know Me",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,d3?36:28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),d5=A.ac(A.nB(B.q_,1),a0,c8*0.15),d6=d3?24:16,d7=t.E
-d6=A.a_(a0,A.di(A.bO(A.a([d2,d4,d5,new A.ca(" I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am innovative and able to produce mobile application from concept to launch,combining both my skills in UI/UX design for better web and mobile experience for the users",B.cJ,d6,a0)],d7),B.B,B.k),a0,a0),a0,a0,a0,new A.a5(d0,0,d0,0),a0,a0)
-d5=c7.b
-d4=A.ac(a0,d5*0.1,a0)
-d2=c8*0.4
-s=c8*0.01
-r=d5*0.02
-q=c8*0.005
-p=d3?A.bX(A.a([A.at(A.a_(a0,A.ck(a1,B.aO),a0,a0,d5*0.5,a0,a0,d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,new A.tH(A.a([A.bd(a2,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a3,a0,a0,36,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),A.ac(a0,q,a0),new A.ca(a4,a0,20,a0),new A.ca(a5,a0,20,a0),new A.ca(a6,a0,20,a0),new A.ca("Movies",a0,20,a0),new A.ca("Hunting",a0,20,a0)],d7),a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z):A.bO(A.a([A.a_(a0,A.ck(a1,B.aO),a0,a0,d5*0.3,a0,a0,d2),A.ac(a0,a0,s),A.a_(a0,A.bO(A.a([A.bd(a2,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a3,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),A.ac(a0,q,a0),new A.ca(a4,a0,14,a0),new A.ca(a5,a0,14,a0),new A.ca(a6,a0,14,a0),new A.ca("Movies",a0,14,a0),new A.ca("Hunting",a0,14,a0)],d7),B.F,B.k),a0,a0,a0,a0,new A.a5(c9,r,0,c9),a0)],d7),B.aU,B.k)
-o=d5*0.2
-n=A.ac(A.nB(B.i,1),o,a0)
-if(d3){m=A.bd("Bio",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a3,a0,a0,36,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0)
-q=A.ac(a0,q,a0)
-l=A.ac(a0,s,a0)
-k=B.N.h(0,200)
-k.toString
-j=A.fd(5)
-i=B.N.h(0,800)
-i.toString
-j=A.bX(A.a([A.at(A.a_(a0,new A.tH(A.a([m,q,new A.ca(a7,a0,20,a0),new A.ca(a8,a0,20,a0),new A.ca(a9,a0,20,a0),new A.ca(b0,a0,20,a0),new A.ca(b1,a0,20,a0),l,A.bX(A.a([A.le(a0,A.a_(a0,A.bd(b2,A.b_(a0,a0,i,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),a0,new A.cr(k,a0,a0,j,a0,a0,B.P),a0,a0,new A.a5(15,15,15,15),a0),B.a7,!1,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,new A.UU(),a0,a0,a0,a0,a0)],d7),B.F,B.k,B.z)],d7),a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(b3,B.aO),a0,a0,d5*0.5,a0,a0,d2),1)],d7),B.F,B.k,B.z)
-q=j}else{m=A.bd("Bio",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a3,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0)
-q=A.ac(a0,q,a0)
-l=A.ac(a0,d1,a0)
-k=B.N.h(0,200)
-k.toString
-j=A.fd(5)
-i=B.N.h(0,800)
-i.toString
-j=A.bO(A.a([A.a_(a0,A.bO(A.a([m,q,new A.ca(a7,a0,14,a0),new A.ca(a8,a0,14,a0),new A.ca(a9,a0,14,a0),new A.ca(b0,a0,14,a0),new A.ca(b1,a0,14,a0),l,A.bX(A.a([A.le(a0,A.a_(a0,A.bd(b2,A.b_(a0,a0,i,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),a0,new A.cr(k,a0,a0,j,a0,a0,B.P),a0,a0,new A.a5(15,15,15,15),a0),B.a7,!1,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,new A.UV(),a0,a0,a0,a0,a0)],d7),B.F,B.k,B.z)],d7),B.F,B.k),a0,a0,a0,a0,new A.a5(c9,r,0,c9),a0),A.ac(a0,r,a0),A.bX(A.a([A.a_(a0,A.ck(b3,B.aO),a0,a0,d5*0.3,a0,new A.a5(c9,0,0,c9),d2)],d7),B.B,B.k,B.z)],d7),B.aU,B.k)
-q=j}q=A.a_(a0,q,a0,a0,a0,a0,a0,a0)
-o=A.ac(A.nB(B.f3,1),o,a0)
-m=c8<=800
-l=A.bd("My Stack",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,m?28:36,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0)
-k=c8*0.1
-j=A.ac(A.nB(B.q_,1),a0,k)
-i=A.ac(a0,20,a0)
-d0=A.a_(a0,A.bO(A.a([l,j,i,new A.ca("After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface",B.cJ,d3?20:16,a0)],d7),B.B,B.k),a0,a0,a0,new A.a5(d0,0,d0,0),a0,a0)
-l=A.ac(a0,d5*0.04,a0)
-if(m){j=d5*0.4
-j=new A.fp(d5*0.3,a0,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd("Skilled in the use of Dart programming language in creation of interactive  functional and responsive mobile apps ,web and software for both android, windows and mac ",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(r,c9,r,c9),a0),2),A.ac(a0,a0,c9),A.at(A.a_(a0,A.ck(b4,B.T),a0,a0,j,a0,new A.a5(r,c9,r,c9),d2),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(b5,B.T),a0,a0,j,a0,new A.a5(r,c9,r,c9),d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(b6,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),a0)}else j=a0
-j=A.a_(a0,j,a0,a0,a0,a0,a0,a0)
-i=A.ac(a0,m?k:0,a0)
-if(m){h=d5*0.4
-h=new A.fp(d5*0.3,a0,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd(" Use of firebase and various of it's interations for user authentication,creation and database  ",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(r,c9,r,c9),a0),2),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(b7,B.T),a0,a0,h,a0,new A.a5(r,c9,r,c9),d2),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(b8,B.T),a0,a0,h,a0,new A.a5(r,c9,r,c9),d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd("Basic understanding of java and its syntax",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),a0)}else h=a0
-h=A.a_(a0,h,a0,a0,a0,a0,a0,a0)
-g=A.ac(a0,m?k:0,a0)
-f=A.a_(a0,m?new A.fp(d5*0.3,a0,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd(b9,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(r,c9,r,c9),a0),2),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(c0,B.T),a0,a0,a0,a0,new A.a5(r,c9,r,c9),a0),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(c1,B.T),a0,a0,d5*0.4,a0,new A.a5(r,c9,r,c9),d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(c2,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,14,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(r,c9,r,c9),a0),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),a0):a0,a0,a0,a0,a0,a0,a0)
-e=A.ac(a0,m?k:0,a0)
-d=A.a_(a0,m?A.a_(a0,A.bX(A.a([A.ac(a0,a0,c9),A.at(A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(c3,B.T),a0,a0,d5*0.4,a0,a0,d2),1),A.ac(a0,a0,c9),A.at(A.a_(a0,A.di(A.bd(c4,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.B,B.k,B.z),1)],d7),B.B,B.k),1),A.ac(a0,a0,c9)],d7),B.F,B.k,B.z),a0,a0,d5*0.3,a0,a0,c8*0.8):a0,a0,a0,a0,a0,a0,a0)
-c=A.ac(a0,m?c9:0,a0)
-b=A.a_(a0,m?A.a_(a0,A.bX(A.a([A.at(A.bO(A.a([A.a_(a0,A.ck(c5,B.T),a0,a0,d5*0.3,a0,a0,d2)],d7),B.B,B.k),1),A.ac(a0,a0,c9),A.at(A.a_(a0,A.di(A.bd(c6,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.B,B.k,B.z),a0,a0,a0,a0,a0,a0):a0,a0,a0,a0,a0,a0,a0)
-a=A.ac(a0,m?k:0,a0)
-if(d3){m=d5*0.4
-m=A.bX(A.a([A.at(new A.nQ(c7,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd(" Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software for both android, windows and mac ",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(b4,B.T),a0,a0,m,a0,a0,d2),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(b5,B.T),a0,a0,m,a0,a0,d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(b6,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),A.bX(A.a([A.at(A.di(A.bO(A.a([A.a_(a0,A.ck("assets/images/iconpic/adobe.png",B.T),a0,a0,a0,a0,a0,a0)],d7),B.B,B.k),a0,a0),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(" Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z),a0),1),A.at(new A.nQ(c7,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd("Use of firebase and various of it's integrations for user authentication,creation and database ",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(b7,B.T),a0,a0,m,a0,a0,d2),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(b8,B.T),a0,a0,m,a0,a0,d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(" Basic understanding of java and it's syntax",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(a0,A.bd(b9,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.ck(c0,B.T),a0,a0,m,a0,a0,d2),1)],d7),B.F,B.k,B.z),1),A.ac(a0,s,a0),A.at(A.bX(A.a([A.at(A.a_(a0,A.ck(c1,B.T),a0,a0,m,a0,a0,d2),1),A.ac(a0,a0,s),A.at(A.a_(a0,A.bd(c2,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),a0),1)],d7),B.B,B.BZ,B.z)
-c7=m}else c7=a0
-c7=A.a_(a0,c7,a0,a0,a0,a0,a0,a0)
-m=A.ac(a0,c9,a0)
-if(d3){d3=d5*0.4
-r=A.bX(A.a([A.ac(a0,a0,c9),A.at(A.a_(a0,A.ck(c3,B.T),a0,a0,d3,a0,a0,d2),1),A.ac(a0,a0,c9),A.at(A.a_(a0,A.di(A.bd(c4,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1),A.ac(a0,a0,c9),A.at(A.a_(a0,A.ck(c5,B.T),a0,a0,d3,a0,a0,d2),1),A.ac(a0,a0,c9),A.at(A.a_(a0,A.di(A.bd(c6,A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.M,a0),a0,a0),a0,a0,a0,a0,new A.a5(0,r,0,0),a0),1)],d7),B.F,B.k,B.z)
-d2=r}else d2=a0
-return A.a_(a0,A.bO(A.a([d6,d4,new A.fp(a0,a0,p,a0),n,q,o,A.di(A.bO(A.a([d0,l,j,i,h,g,f,e,d,c,b,a,c7,m,A.a_(a0,d2,a0,a0,a0,a0,a0,a0)],d7),B.B,B.BY),a0,a0),A.ac(A.nB(B.f3,1),k,a0),A.a_(a0,A.bO(A.a([A.bd(" Project ",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),A.ac(a0,d1,a0),A.at(A.ac(new A.ww("/videos/mainfood.mp4",a0),a0,a0),1)],d7),B.B,B.k),a0,a0,d5*0.4,a0,a0,d5*0.6),A.ac(A.nB(B.f3,1),k,a0),A.a_(a0,A.bO(A.a([A.bd("Projects",A.b_(a0,a0,B.i,a0,a0,a0,a0,a0,a0,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),A.ac(a0,d1,a0),new A.u9(a0)],d7),B.B,B.k),a0,a0,a0,a0,a0,a0),A.ac(A.nB(B.i,0.5),c8*0.2,a0),A.a_(a0,new A.df(new A.a5(s,s,s,s),new A.zW("Contacts","Email: Chuksa3@gmail.com","Phone: +2348104453238",a0),a0),a0,a0,a0,a0,a0,a0)],d7),B.B,B.k),a0,a0,a0,a0,new A.a5(0,0,c9,0),c8)}}
+K(d8,d9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b="assets/images/animals.jpg",a="Interests",a0="Palatino",a1="Programming",a2="Art and Painting",a3="Exercise",a4="Name: Oraezu Albert",a5="Gender: Male",a6="Roles: Web Designer, Programmer, Illustrator",a7="Race: Earth",a8="Email:Dirusalbert@gmail.com",a9="View Resume",b0="assets/images/face.jpg",b1="assets/images/iconpic/daerbird.png",b2="assets/images/iconpic/flutter.png",b3="Extensive knowledge in the use of flutter framework for developing interactive cross platform UI",b4="assets/images/iconpic/firebase.png",b5="assets/images/iconpic/javaicon.png",b6="Over four years experience in the use of ClipStudio for creation of beautiful illustrations",b7="assets/images/iconpic/clipstudio.png",b8="assets/images/iconpic/pngwing.com (9).png",b9="Proficient skill in the use of photoshop and its various integrations",c0="assets/images/iconpic/phonehand.png",c1="Mobile development  using flutter and dart a cross platform programing language/framework,for development on andriod and ios",c2="assets/images/iconpic/figma.png",c3="One year experience in the use of Figma for creation of beautiful and usable web and mobile app designs ",c4=this.c,c5=c4.a,c6=c5*0.02,c7=c5*0.03,c8=c5*0.04,c9=A.ac(c,c8,c),d0=c5>=800,d1=A.bd("Know Me",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,d0?36:28,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),d2=c4.b,d3=d2*0.05,d4=c5*0.1,d5=A.ac(A.nB(B.q_,1),d3,d4),d6=d0?24:16,d7=t.E
+d6=A.a_(c,A.di(A.bO(A.a([c9,d1,d5,new A.ca(" I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am innovative and able to produce mobile application from concept to launch,combining both my skills in UI/UX design for better web and mobile experience for the users",B.cJ,d6,c)],d7),B.B,B.k),c,c),c,c,c,new A.a5(c7,0,c7,0),c,c)
+d5=d2*0.1
+d1=A.ac(c,d5,c)
+c9=c5*0.4
+s=c5*0.01
+r=d2*0.02
+q=c5*0.005
+p=d0?A.bX(A.a([A.at(A.a_(c,A.ck(b,B.aO),c,c,d2*0.5,c,c,c9),1),A.ac(c,c,s),A.at(A.a_(c,new A.tH(A.a([A.bd(a,A.b_(c,c,B.i,c,c,c,c,c,a0,c,c,36,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),A.ac(c,q,c),new A.ca(a1,c,20,c),new A.ca(a2,c,20,c),new A.ca(a3,c,20,c),new A.ca("Movies",c,20,c),new A.ca("Hunting",c,20,c)],d7),c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z):A.bO(A.a([A.a_(c,A.ck(b,B.aO),c,c,d2*0.3,c,c,c9),A.ac(c,c,s),A.a_(c,A.bO(A.a([A.bd(a,A.b_(c,c,B.i,c,c,c,c,c,a0,c,c,28,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),A.ac(c,q,c),new A.ca(a1,c,14,c),new A.ca(a2,c,14,c),new A.ca(a3,c,14,c),new A.ca("Movies",c,14,c),new A.ca("Hunting",c,14,c)],d7),B.F,B.k),c,c,c,c,new A.a5(c6,r,0,c6),c)],d7),B.aU,B.k)
+o=A.ac(A.nB(B.i,1),d2*0.2,c)
+if(d0){n=A.bd("Bio",A.b_(c,c,B.i,c,c,c,c,c,a0,c,c,36,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
+q=A.ac(c,q,c)
+m=A.ac(c,s,c)
+l=B.N.h(0,200)
+l.toString
+k=A.fd(5)
+j=B.N.h(0,800)
+j.toString
+k=A.bX(A.a([A.at(A.a_(c,new A.tH(A.a([n,q,new A.ca(a4,c,20,c),new A.ca(a5,c,20,c),new A.ca(a6,c,20,c),new A.ca(a7,c,20,c),new A.ca(a8,c,20,c),m,A.bX(A.a([A.le(c,A.a_(c,A.bd(a9,A.b_(c,c,j,c,c,c,c,c,c,c,c,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),c,new A.cr(l,c,c,k,c,c,B.P),c,c,new A.a5(15,15,15,15),c),B.a7,!1,c,c,c,c,c,c,c,c,c,c,new A.UU(),c,c,c,c,c)],d7),B.F,B.k,B.z)],d7),c),c,c,c,c,new A.a5(0,r,0,0),c),1),A.ac(c,c,s),A.at(A.a_(c,A.ck(b0,B.aO),c,c,d2*0.5,c,c,c9),1)],d7),B.F,B.k,B.z)
+q=k}else{n=A.bd("Bio",A.b_(c,c,B.i,c,c,c,c,c,a0,c,c,28,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
+q=A.ac(c,q,c)
+m=A.ac(c,c8,c)
+l=B.N.h(0,200)
+l.toString
+k=A.fd(5)
+j=B.N.h(0,800)
+j.toString
+k=A.bO(A.a([A.a_(c,A.bO(A.a([n,q,new A.ca(a4,c,14,c),new A.ca(a5,c,14,c),new A.ca(a6,c,14,c),new A.ca(a7,c,14,c),new A.ca(a8,c,14,c),m,A.bX(A.a([A.le(c,A.a_(c,A.bd(a9,A.b_(c,c,j,c,c,c,c,c,c,c,c,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),c,new A.cr(l,c,c,k,c,c,B.P),c,c,new A.a5(15,15,15,15),c),B.a7,!1,c,c,c,c,c,c,c,c,c,c,new A.UV(),c,c,c,c,c)],d7),B.F,B.k,B.z)],d7),B.F,B.k),c,c,c,c,new A.a5(c6,r,0,c6),c),A.ac(c,r,c),A.bX(A.a([A.a_(c,A.ck(b0,B.aO),c,c,d2*0.3,c,new A.a5(c6,0,0,c6),c9)],d7),B.B,B.k,B.z)],d7),B.aU,B.k)
+q=k}q=A.a_(c,q,c,c,c,c,c,c)
+d5=A.ac(A.nB(B.f3,1),d5,c)
+n=c5<=800
+m=A.bd("My Stack",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,n?28:36,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)
+d3=A.ac(A.nB(B.q_,1),d3,d3)
+c7=A.a_(c,A.bO(A.a([m,d3,new A.ca("After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface",B.cJ,d0?20:16,c)],d7),B.B,B.k),c,c,c,new A.a5(c7,0,c7,0),c,c)
+d3=A.ac(c,d2*0.04,c)
+if(n){m=d2*0.4
+m=new A.fp(d2*0.3,c,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd("Skilled in the use of Dart programming language in creation of interactive  functional and responsive mobile apps ,web and software for both android, windows and mac ",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(r,c6,r,c6),c),2),A.ac(c,c,c6),A.at(A.a_(c,A.ck(b1,B.T),c,c,m,c,new A.a5(r,c6,r,c6),c9),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b2,B.T),c,c,m,c,new A.a5(r,c6,r,c6),c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(b3,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),c)}else m=c
+m=A.a_(c,m,c,c,c,c,c,c)
+l=A.ac(c,n?d4:0,c)
+if(n){k=d2*0.4
+k=new A.fp(d2*0.3,c,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd(" Use of firebase and various of it's interations for user authentication,creation and database  ",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(r,c6,r,c6),c),2),A.ac(c,c,s),A.at(A.a_(c,A.ck(b4,B.T),c,c,k,c,new A.a5(r,c6,r,c6),c9),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b5,B.T),c,c,k,c,new A.a5(r,c6,r,c6),c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd("Basic understanding of java and its syntax",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),c)}else k=c
+k=A.a_(c,k,c,c,c,c,c,c)
+j=A.ac(c,n?d4:0,c)
+i=A.a_(c,n?new A.fp(d2*0.3,c,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd(b6,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(r,c6,r,c6),c),2),A.ac(c,c,s),A.at(A.a_(c,A.ck(b7,B.T),c,c,c,c,new A.a5(r,c6,r,c6),c),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b8,B.T),c,c,d2*0.4,c,new A.a5(r,c6,r,c6),c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(b9,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,14,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(r,c6,r,c6),c),2)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),c):c,c,c,c,c,c,c)
+h=A.ac(c,n?d4:0,c)
+g=A.a_(c,n?A.a_(c,A.bX(A.a([A.ac(c,c,c6),A.at(A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.ck(c0,B.T),c,c,d2*0.4,c,c,c9),1),A.ac(c,c,c6),A.at(A.a_(c,A.di(A.bd(c1,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.B,B.k,B.z),1)],d7),B.B,B.k),1),A.ac(c,c,c6)],d7),B.F,B.k,B.z),c,c,d2*0.3,c,c,c5*0.8):c,c,c,c,c,c,c)
+f=A.ac(c,n?c6:0,c)
+e=A.a_(c,n?A.a_(c,A.bX(A.a([A.at(A.bO(A.a([A.a_(c,A.ck(c2,B.T),c,c,d2*0.3,c,c,c9)],d7),B.B,B.k),1),A.ac(c,c,c6),A.at(A.a_(c,A.di(A.bd(c3,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.B,B.k,B.z),c,c,c,c,c,c):c,c,c,c,c,c,c)
+d=A.ac(c,n?d4:0,c)
+if(d0){n=d2*0.4
+n=A.bX(A.a([A.at(new A.nQ(c4,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd(" Skilled in the use of Dart programming language in creation of interactive and responsive functionality of mobile apps ,web and software for both android, windows and mac ",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1),A.ac(c,c,s),A.at(A.a_(c,A.ck(b1,B.T),c,c,n,c,c,c9),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b2,B.T),c,c,n,c,c,c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(b3,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),A.bX(A.a([A.at(A.di(A.bO(A.a([A.a_(c,A.ck("assets/images/iconpic/adobe.png",B.T),c,c,c,c,c,c)],d7),B.B,B.k),c,c),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(" Over four years experience in the use of Adobe illustrator in making of beautiful illustrations, logos and fliers as well as customized icons",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z),c),1),A.at(new A.nQ(c4,A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd("Use of firebase and various of it's integrations for user authentication,creation and database ",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1),A.ac(c,c,s),A.at(A.a_(c,A.ck(b4,B.T),c,c,n,c,c,c9),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b5,B.T),c,c,n,c,c,c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(" Basic understanding of java and it's syntax",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),A.bO(A.a([A.at(A.bX(A.a([A.at(A.a_(c,A.bd(b6,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1),A.ac(c,c,s),A.at(A.a_(c,A.ck(b7,B.T),c,c,n,c,c,c9),1)],d7),B.F,B.k,B.z),1),A.ac(c,s,c),A.at(A.bX(A.a([A.at(A.a_(c,A.ck(b8,B.T),c,c,n,c,c,c9),1),A.ac(c,c,s),A.at(A.a_(c,A.bd(b9,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z),1)],d7),B.B,B.k),c),1)],d7),B.B,B.BZ,B.z)
+c4=n}else c4=c
+c4=A.a_(c,c4,c,c,c,c,c,c)
+n=A.ac(c,c6,c)
+if(d0){d0=d2*0.4
+r=A.bX(A.a([A.ac(c,c,c6),A.at(A.a_(c,A.ck(c0,B.T),c,c,d0,c,c,c9),1),A.ac(c,c,c6),A.at(A.a_(c,A.di(A.bd(c1,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c),c,c,c,c,new A.a5(0,r,0,0),c),1),A.ac(c,c,c6),A.at(A.a_(c,A.ck(c2,B.T),c,c,d0,c,c,c9),1),A.ac(c,c,c6),A.at(A.a_(c,A.di(A.bd(c3,A.b_(c,c,B.i,c,c,c,c,c,c,c,c,16,c,c,c,c,!0,c,c,c,c,c,c,c,c),B.M,c),c,c),c,c,c,c,new A.a5(0,r,0,0),c),1)],d7),B.F,B.k,B.z)
+c9=r}else c9=c
+return A.a_(c,A.bO(A.a([d6,d1,new A.fp(c,c,p,c),o,q,d5,A.di(A.bO(A.a([c7,d3,m,l,k,j,i,h,g,f,e,d,c4,n,A.a_(c,c9,c,c,c,c,c,c)],d7),B.B,B.BY),c,c),A.ac(A.nB(B.f3,1),d4,c),A.a_(c,A.bO(A.a([A.bd(" Project ",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,28,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),A.ac(c,c8,c),A.at(A.ac(new A.ww("/videos/mainfood.mp4",c),c,c),1)],d7),B.B,B.k),c,c,d2*0.4,c,c,d2*0.6),A.ac(A.nB(B.f3,1),d4,c),A.a_(c,A.bO(A.a([A.bd("Projects",A.b_(c,c,B.i,c,c,c,c,c,c,c,c,28,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),A.ac(c,c8,c),new A.u9(c)],d7),B.B,B.k),c,c,c,c,c,c),A.ac(A.nB(B.i,0.5),c5*0.2,c),A.a_(c,new A.df(new A.a5(s,s,s,s),new A.zW("Contacts","Email: Chuksa3@gmail.com","Phone: +2348104453238",c),c),c,c,c,c,c,c)],d7),B.B,B.k),c,c,c,c,new A.a5(0,0,c6,0),c5)}}
 A.UU.prototype={
 $0(){A.kB(A.j7(u.D,0,null))},
 $S:0}
