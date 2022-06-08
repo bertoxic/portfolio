@@ -18,7 +18,10 @@ class FrostedGlass extends StatelessWidget {
         height: height,
         color: Colors.white.withOpacity(0.04),
         child: Stack(children: [
-          BackdropFilter(filter: ImageFilter.blur(sigmaX: 4,sigmaY: 4)),
+          BackdropFilter(child:Container(),
+              filter: ImageFilter.blur(sigmaX: 10,sigmaY: 8)
+
+          ),
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),

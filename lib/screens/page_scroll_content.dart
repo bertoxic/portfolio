@@ -33,9 +33,9 @@ class PageScrollContent extends StatelessWidget {
                   Text('Know Me',style: TextStyle(fontSize: screenSize.width>=800?36:28,color: Colors.white),),
                   SizedBox(height:screenSize.height*0.05,width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
                   SmallText( size: screenSize.width>=800?24:16,
-                    text:' I am Mobile developer, web Designer, flutter web developer,graphic designer and Illustrator,mixing freelance work with school, i am a final year student of '
-                        'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web design and Mobile development, i am '
-                        'innovative and able to produce mobile application from concept to launch,combining both my skills in UI/UX design for better web and mobile experience for the users',
+                    text:' I am a Mobile developer, web Designer, web developer, graphic designer and Illustrator, mixing freelance work with school, i am a final year student of '
+                        'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web development/design and 2 years Mobile development experience, i am '
+                        'innovative and able to develop mobile application from concept to launch, combining both my skills in UI/UX design for better web and mobile experience for the users',
                       align: TextAlign.center,           )
                 ],),
               )),
@@ -197,7 +197,8 @@ class PageScrollContent extends StatelessWidget {
 
                   SmallText( size: screenSize.width>=800?20:16,
                     text:'After completing various relevant courses on fullstack mobile development,as well as ux/ui . i have obtained relevant skills '
-                        'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps,use of Figma to design useable and attractive interface',
+                        'such as flutter , dart ,state Management, firebase and integration of RestAPI into mobile and web apps, use of Figma to design useable and attractive interface before deploying into '
+                        'web using HTML/CSS',
                     align: TextAlign.center,           )
                 ],)),
               SizedBox(height: screenSize.height*0.04,),
@@ -210,8 +211,7 @@ class PageScrollContent extends StatelessWidget {
                         children: [
                           Expanded(flex:2,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
-                              child: Text('Skilled in the use of Dart programming language in creation of interactive  functional and responsive mobile apps ,web and software'
-                                  ' for both android, windows and mac ',
+                              child: Text('Skilled in the use of Dart programming language in creation of interactive functional and responsive mobile and ,web apps,',
                                 style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
@@ -267,7 +267,7 @@ class PageScrollContent extends StatelessWidget {
                         children: [
                           Expanded(flex:2,
                             child: Container( padding: EdgeInsets.symmetric(vertical: screenSize.width*0.02,horizontal:screenSize.height*0.02, ),
-                              child: Text(' Use of firebase and various of it\'s interations for user authentication,creation and database  ',
+                              child: Text('Use of firebase and various of it\'s interations for user authentication,creation and database  ',
                                 style: TextStyle(fontSize: 14,color: Colors.white,),textAlign: TextAlign.left,),
                             ),
                           ),
@@ -695,9 +695,15 @@ class PageScrollContent extends StatelessWidget {
           Container( //color: Colors.blueAccent, padding: EdgeInsets.all(screenSize.width*0.02),
               child: Padding(
                 padding: EdgeInsets.all(screenSize.width*0.01),
-                child: BottomBarColumn(heading: "Contacts",
-                    s1: 'Email: Chuksa3@gmail.com',
-                    s2: 'Phone: +2348104453238', s3: 'Bertoxic'),
+                child: Row(
+                  children: [
+                    Flexible(
+                      child: BottomBarColumn(heading: "Contacts",
+                          s1: 'Email: Chuksa3@gmail.com',
+                          s2: 'Phone: +2348104453238', s3: 'Bertoxic'),
+                    ),
+                  ],
+                ),
               ))
         ],
       ),
