@@ -14,7 +14,7 @@ class Assets {
   static const String iconpicJavaicon = 'assets/images/iconpic/javaicon.png';
   static const String iconpicPhone = 'assets/images/iconpic/phone.png';
   static const String iconpicPhonehand = 'assets/images/iconpic/phonehand.png';
-  //static const String iconpicPngwing.com (9) = 'assets/images/iconpic/pngwing.com (9).png';
+  static const String iconpicPngwing.com (9) = 'assets/images/iconpic/pngwing.com (9).png';
   static const String iconpicTube = 'assets/images/iconpic/tube.png';
   static const String imagesAfrica = 'assets/images/africa.jpg';
   static const String imagesAnimals = 'assets/images/animals.jpg';

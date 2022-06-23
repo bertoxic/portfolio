@@ -33,8 +33,8 @@ class PageScrollContent extends StatelessWidget {
                   Text('Know Me',style: TextStyle(fontSize: screenSize.width>=800?36:28,color: Colors.white),),
                   SizedBox(height:screenSize.height*0.05,width: screenSize.width*0.1,child: Divider(thickness: 1,color: Colors.red,),),
                   SmallText( size: screenSize.width>=800?24:16,
-                    text:' I am a Mobile developer, web Designer, web developer, graphic designer and Illustrator, mixing freelance work with school, i am a final year student of '
-                        'Pharmacy. Currently have over three years of graphic design and illustration experience and over a year experience in web development/design and 2 years Mobile development experience, i am '
+                    text:' I am a Mobile developer, web Designer, web developer, graphic designer and Illustrator, mixing freelance work with usual jobs, i am a passionate programmer '
+                    'Currently have over two years of experience in  Mobile development experience, specifically flutter, firebase ,RestApi, MySqflite. i am '
                         'innovative and able to develop mobile application from concept to launch, combining both my skills in UI/UX design for better web and mobile experience for the users',
                       align: TextAlign.center,           )
                 ],),
